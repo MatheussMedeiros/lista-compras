@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="main-container">
+        <div id="content">
+            <div class="header">
+                <h2>Carrinho de Compras</h2>
+                <div class="action-control">
+                    <input type="text" id="product-name" placeholder="Produto">
+                    <input type="text" id="product-value" placeholder="Valor do produto">
+                    <input type="number" name="" id="product-quantity" placeholder="Qunatidade de produto" value="1">
+                    <button id="add-product">Adicionar</button>
+                </div>
+                <div id="table">
+                    <div class="table-header">
+                        <h3>Produto</h3>
+                        <h3>Quantidade</h3>
+                        <h3>Valor</h3>
+                    </div>
+                    <div id="table-list">
+                        
+                    </div>
+                    <div class="table-footer">
+                        <h3>Total</h3>
+                        <h3 id="total-value">R$ <span></span></h3>
+                    </div>
+                </div>
+                <div class="action-control">
+                    <button id="clear-btn">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
